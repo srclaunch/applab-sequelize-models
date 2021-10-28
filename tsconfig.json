@@ -1,0 +1,8 @@
+{
+  "compilerOptions": {
+    "outDir": "dist",
+  },
+  "extends": "@srclaunch/tsconfig-applab/lib/tsconfig.json",
+  "exclude": ["src/models/index.ts"],
+  "include": ["src/index.ts","src/models/*","src/scripts/*","src/lib/*"]
+}
